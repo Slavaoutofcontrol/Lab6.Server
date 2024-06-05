@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T11:49:30.039500Z</date>
+  <millis>1717588170039</millis>
+  <nanos>500000</nanos>
+  <sequence>0</sequence>
+  <logger>utils.ServerLogger</logger>
+  <level>WARNING</level>
+  <class>collectionManagers.StorageManager</class>
+  <method>readCollection</method>
+  <thread>1</thread>
+  <message>Нет прав на чтение данного файла.1</message>
+</record>
+<record>
+  <date>2024-06-05T11:49:30.077245Z</date>
+  <millis>1717588170077</millis>
+  <nanos>245000</nanos>
+  <sequence>1</sequence>
+  <logger>utils.ServerLogger</logger>
+  <level>INFO</level>
+  <class>utils.Server</class>
+  <method>run</method>
+  <thread>1</thread>
+  <message>Сервер запущен на порте 23048</message>
+</record>
